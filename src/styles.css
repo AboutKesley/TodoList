@@ -1,0 +1,59 @@
+body {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+}
+.tittle {
+  color: #ffff;
+  font-family: monospace;
+  font-size: 5vw;
+}
+
+.TodoTitle {
+  padding: 1vw;
+  color: #ffff;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.TodoTitle:hover {
+  transform: scale(1.1);
+}
+
+.todoItemContainer {
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px black;
+}
+
+.todoItemContainer:hover {
+  transform: scale(1.1);
+}
+
+.todoItemContainer.selected {
+  background-color: #03c03c;
+}
+
+.DeleteButton {
+  margin-top: 3vw;
+  background-color: #cc0000;
+  padding: 0px 5px 0px 5px;
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px #636262;
+}
+
+.DeleteButton:hover {
+  background-color: #e41c38;
+}
+
+.DeleteButton:active {
+  box-shadow: 0px 3px #393838;
+  transform: translateY(4px);
+}
